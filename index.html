@@ -19,7 +19,7 @@
   <meta property="og:type" content="person">
   <meta property="og:image" content="https://smmrv.ru/images/socials-preview.jpg">
   <meta property="og:image:width" content="1000">
-  <meta property="og:image:height" content="1333">
+  <meta property="og:image:height" content="1000">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -43,17 +43,18 @@
         "https://portfolio.smmrv.ru"
       ]
     }
+
   </script>
 
   <!-- Styles for SEO -->
   <style>
     .seo-content {
-      position: absolute;
-      left: -9999px;
-      top: -9999px;
-      height: 1px;
-      width: 1px;
-      overflow: hidden;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
     }
   </style>
 </head>
@@ -64,7 +65,7 @@
   <iframe name="SiteShowFrame" src="https://bio.site/smmrv" width="100%" height="100%" frameborder="0" style="position:fixed; top:0; left:0; width:100%; height:100vh; border:0;"></iframe>
 
   <!-- Text for SEO -->
-  <div class="seo-content">
+  <main class="seo-content">
     <h1>Семён Тихомиров — фотограф и веб-дизайнер из Санкт-Петербурга</h1>
     <p>Добро пожаловать на официальный сайт-визитку Семёна Тихомирова — фотографа и веб-дизайнера. Здесь вы найдёте ссылки на мои проекты, соцсети, портфолио и способы связи.</p>
     <img src="https://smmrv.ru/images/avatar.jpg" alt="Семён Тихомиров — фотограф и веб-дизайнер" width="200">
@@ -89,7 +90,7 @@
       <p>Делюсь своей фотографией и лайфстайлом, а также собираю комьюнити творческих личностей.</p>
       <img src="https://smmrv.ru/images/channel-preview.jpg" alt="Превью Telegram-канала Семёна Тихомирова" width="300">
     </div>
-  </div>
+</main>
 
 </body>
 
